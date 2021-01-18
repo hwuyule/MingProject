@@ -16,7 +16,7 @@ class EntranceActivity : AppCompatActivity() {
         val linearLayout = findViewById<LinearLayout>(R.id.root)
 
         /**
-         * 学习一下这个写demo的方法，迅速写多个Activity的入口
+         * 学习一下这个写demo的方法，迅速写多个Activity的入口 测试
          */
         packageManager.getPackageInfo(
             packageName, PackageManager.GET_ACTIVITIES).activities.forEach { activity ->
