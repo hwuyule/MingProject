@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MotionLayout4Activity"></activity>
+        <activity android:name=".kotlindsl.DslTestActivity"></activity>
+        <activity android:name=".MotionLayout4Activity" />
         <activity android:name=".MotionLayout3Activity" />
         <activity android:name=".MotionLayout2Activity" />
         <activity android:name=".MotionLayoutActivity" />
